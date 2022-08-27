@@ -1,0 +1,128 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int order , no_of_plates;
+    cout<<" *-------------------------------------------MENU-------------------------------------------------*"<<endl;
+    cout<<endl;
+    cout<<"(1)  Misal Pav                                                    200 rs/-"<<endl;
+    cout<<"(2)  Makki Di Roti & Sarson Da Saag                               150 rs/-"<<endl;
+    cout<<"(3)  Kosha Mangsho                                                250 rs/-"<<endl;
+    cout<<"(4)  Dhokla                                                       190 rs/-"<<endl;
+    cout<<"(5)  Rogan Josh                                                   99 rs/-"<<endl;
+    cout<<"(6)  Pongal                                                       299 rs/-"<<endl;
+    cout<<"(7)  Papaya Khar                                                  50 rs/-"<<endl;
+    cout<<"(8)  Litti Chowkha                                                500 rs/-"<<endl;
+    cout<<"(9)  Vada pav                                                     250 rs/-"<<endl;
+    cout<<"(10) Stuffed paratha                                              150 rs/-"<<endl;
+    cout<<"(11) Pani puri                                                    235 rs/-"<<endl;
+    cout<<endl;
+    cout<<"PLEASE SELECT THE ORDER NUMBER: "<<endl;
+    cin>>order;
+    cout<<"PLEASE SELECT THE NUMBER OF PLATES: "<<endl;
+    cin>>no_of_plates;
+    cout<<endl;
+    switch(order) {
+        case 1:
+        cout<<" Order: Misal Pav "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 200 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<200*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 2:
+        cout<<" Order: Makki Di Roti & Sarson Da Saag "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 150 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<150*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        
+        break;
+        
+        case 3:
+        cout<<" Order: Kosha Mangsho "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 250 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<250*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        
+        break;
+        
+        case 4:
+        cout<<" Order: Dhokla "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 190 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<190*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+       cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 5:
+        cout<<" Order: Rogan Josh  "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 99 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<99*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 6:
+        cout<<" Order:Pongal "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 299 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<299*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 7:
+        cout<<" Order: Papaya Khar "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 50 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<50*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 8:
+        cout<<" Order: Litti Chowkha "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 500 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<500*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 9:
+        cout<<" Order: Vada pav "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 250 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<250*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 10:
+        cout<<" Order:Stuffed paratha  "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 150 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<150*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+        
+        case 11:
+        cout<<" Order:Pani puri  "<<endl;
+        cout<<" No Of Plates: "<<no_of_plates<<endl;
+        cout<<" Price Of Each Deal: 235 rs/- "<<endl;
+        cout<<" Total Price:"<<" "<<235*no_of_plates<<"rs/- ONLY"<<endl;
+        cout<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~ THANKS FOR COMING ~~~~~~~~~~~~~~~~~~~~~~~~~~ "<<endl;
+        break;
+    }
+    return 0;
+}
